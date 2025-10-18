@@ -4,7 +4,61 @@
     box-sizing: border-box;
 }
 
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+body{
+    user-select: none;
+}
+
 .res{
     color: blue;
     font-size: 22px;
+}
+
+h1{
+    margin-top: 50px;
+}
+p{
+    font-size: 20px;
+}
+
+.calc{
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 600px;
+    margin: 60px auto;
+
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.field,.btn{
+    margin-bottom: 40px;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.btn{
+    background-color: rgb(39, 95, 95);
+    color: aliceblue;
+    font-size: 20px;
+}
+
+::placeholder,select{
+    font-size: 20px;
+}
+
+option{
+    border-radius: 12px;
+    background-color: rgb(39, 95, 95);
+    color: aliceblue;
 }
